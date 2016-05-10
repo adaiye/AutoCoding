@@ -267,7 +267,7 @@ static NSString *const AutocodingException = @"AutocodingException";
 
 - (instancetype)initWithCoder:(NSCoder *)aDecoder
 {
-    self = [super init];
+    self = [self init];
     if (self) {
         [self setWithCoder:aDecoder];
     }
